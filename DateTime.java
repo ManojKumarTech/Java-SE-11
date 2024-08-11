@@ -11,5 +11,8 @@ public class DateTime {
         //for current time:)
         Instant now = Instant.now();
         System.out.println(now);
+        ZoneId am = ZoneId.of("America/Los_Angeles");
+        ZonedDateTime at = ZonedDateTime.now(am);
+        System.out.println(at);
     }
 }
