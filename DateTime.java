@@ -8,5 +8,8 @@ public class DateTime {
          LocalDate b = LocalDate.now();
          LocalDateTime c = b.atTime(a);
         System.out.println(c);
+        //for current time:)
+        Instant now = Instant.now();
+        System.out.println(now);
     }
 }
