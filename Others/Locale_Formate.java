@@ -1,3 +1,5 @@
+package Others;
+
 import java.math.BigDecimal;
 import java.text.NumberFormat;
 import java.util.Locale;
@@ -14,7 +16,7 @@ public class Locale_Formate {
         int quantity = 12345;
 
         NumberFormat currencyFormat = NumberFormat.getCurrencyInstance(uk);
-        String fPrize = currencyFormat.format(prize); // Format the BigDecimal value, not the Locale object
+        String fPrize = currencyFormat.format(prize);
         System.out.println(fPrize);
     }
 }
