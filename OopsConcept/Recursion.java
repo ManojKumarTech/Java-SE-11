@@ -1,6 +1,6 @@
 package OopsConcept;
 
-public class Recurtion {
+public class Recursion {
 
     public static void main(String[] args) {
         recursion1(7);
