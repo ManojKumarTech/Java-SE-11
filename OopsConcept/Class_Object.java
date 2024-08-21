@@ -4,7 +4,7 @@ public class Class_Object {
     private String name;
     private int age;
 
-    public void display(){
+    private void display(){
         System.out.println(name);
         System.out.println(age);
     }
