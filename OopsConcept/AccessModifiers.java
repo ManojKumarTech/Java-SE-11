@@ -1,8 +1,8 @@
 package OopsConcept;
 
-public class Class_Object {
+public class AccessModifiers {
     private String name;
-    private int age;
+    int age;
 
     public void display(){
         System.out.println(name);
@@ -13,7 +13,9 @@ public class Class_Object {
         this.name=name;                          //name=n;
         this.age=age;                            //age=a;
     }                                            //}
+}
 
+class Main{
     public static void main(String[] args) {
         //Creating Object
         Class_Object user1 = new Class_Object();
