@@ -1,6 +1,4 @@
-package Inheritance;
-
-import java.sql.SQLOutput;
+package OopsConcept.Inheritance;
 
 public class TypesOfInheritance {
     public static void main(String[] args) {
@@ -26,7 +24,7 @@ class GrandFather{
     }
 }
 
-//Single Inheritance
+//Single OopsConcept.Inheritance
 class Mother extends GrandFather{
       char gender = 'F';
       void print(){
@@ -36,7 +34,7 @@ class Mother extends GrandFather{
 }
 
 
-//Multi-level Inheritance
+//Multi-level OopsConcept.Inheritance
 class Daughter extends Mother{
      void print(){
          System.out.println("Iam Daughter of Mother Class");
@@ -44,7 +42,7 @@ class Daughter extends Mother{
      }
 }
 
-//Hybrid Inheritance
+//Hybrid OopsConcept.Inheritance
 class Uncle extends GrandFather{
     void print(){
         System.out.println("Iam GrandFather's son(Uncle class) ");

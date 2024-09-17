@@ -1,4 +1,4 @@
-package Inheritance;
+package OopsConcept.Inheritance;
 
 
 public class Introduction {
